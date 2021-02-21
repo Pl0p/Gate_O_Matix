@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Jack_mono
+D Audio Jack, 2 Poles (Mono / TS)
+K audio jack receptacle mono phone headphone TS connector
+F ~
+$ENDCMP
+#
+$CMP Jack_mono_1
+D Audio Jack, 2 Poles (Mono / TS)
+K audio jack receptacle mono phone headphone TS connector
+F ~
+$ENDCMP
+#
+$CMP MCD-2831A
+D Generic connector, single row, 01x12
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library
