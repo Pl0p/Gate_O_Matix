@@ -1,38 +1,35 @@
-  Gate sequencer by Plop
+#   Gate sequencer by Plop
 
-  Update 17 FEB 2021
+  *Update 17 FEB 2021*
 
-  64 step sequencer, 8 parts, multiple play mode, eurorack format.
+##   64 step sequencer, 8 parts, multiple play mode, eurorack format.
 
-  ________________________________________________________________________________________________
-  ________________________________________________________________________________________________
-  ________________________________________________________________________________________________
 
-  TODO :
+###   TODO :
 
-    SOFTWARE
+#### SOFTWARE
 
-      -Clock multiplier/divider per part
-      -Detect clock internal/external (switching jack)
-      -Reset -> interupt
-      -Patern choice
-      -Save/Load (SD card)
+-     - [ ] Clock multiplier/divider per part
+-      - [ ] Detect clock internal/external (switching jack)
+-      - [ ] Reset -> interupt
+-      - [ ] Patern choice
+-      - [ ] Save/Load (SD card)
   
 
-    HARDWARE
+####     HARDWARE
 
-      -Use faster microcontroler (blue pills or teensy ?)
-      -Add switching jack for clock
-      -Add SD card
-      -12v alimentation
-      -"transistorisation" des entrées/sorties
+-     - [ ]  Use faster microcontroler (blue pills or teensy ?)
+-      - [ ] Add switching jack for clock
+-      - [ ] Add SD card
+-      - [ ] 12v alimentation
+-      - [ ] "transistorisation" des entrées/sorties
       
       
-    SCHEMATIC & PCB
+####     SCHEMATIC & PCB
     
-      -Resistor value for LED & screen
-      -Routing Main_Board
-      -Drawing CPU_Board
+-      - [ ] Resistor value for LED & screen
+-      - [ ] Routing Main_Board
+-      - [ ] Drawing CPU_Board
 
 
   DONE :
@@ -59,38 +56,38 @@
   ________________________________________________________________________________________________
 
 
-  FUNCTIONS :
+##   FUNCTIONS :
   
 
-    Buttons =
-        -Step on/off
-        -Shift + step button = step jump
-        -Fill
-        -Fill + shift = Clear
-        -Copy/Paste
-        -Copy/Paste + shift = Save
-        -Pause/Play
-        -Pause/Play + shift = Stop
+####     Buttons =
+-         Step on/off
+-         Shift + step button = step jump
+-         Fill
+-         Fill + shift = Clear
+-         Copy/Paste
+-         Copy/Paste + shift = Save
+-         Pause/Play
+-         Pause/Play + shift = Stop
     
 
-    Encoders =
-        -Tempo
-        -Tempo + push = clock divider
-        -Gate length
-        -Gate length + push = Number of step
-        -Page navigation
-        -Page navigation + push = Play mode
+####     Encoders =
+-         Tempo
+-         Tempo + push = clock divider
+-         Gate length
+-         Gate length + push = Number of step
+-         Page navigation
+-         Page navigation + push = Play mode
     
 
-    Selector =
-        -Part choice
+####     Selector =
+-         Part choice
 
-    Play mode =
-        -Forward
-        -Backward
-        -Ping Pong
-        -Random
-        -Brownien
+####     Play mode =
+ -        Forward
+-         Backward
+-         Ping Pong
+-         Random
+-         Brownien
     
 
   --------------------------------------------------------------------------
