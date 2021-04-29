@@ -14,52 +14,50 @@
 -      - [ ] Reset -> interupt
 -      - [ ] Patern choice
 -      - [ ] Save/Load (SD card)
+-     - [x] Tempo
+-     - [x]Part choice
+-     - [x]Number of step
+-     - [x]Pages navigation
+-     - [x]Step ON-OFF
+-     - [x]Play mode
+-     - [x]Fill/Clear
+-     - [x]Copy/Past
+-     - [x]Pause/Play/Stop
+-     - [x]Gate size
+-     - [x]Step jump
+-     - [x]Reset
+-     - [x]Internal clock
   
 
 ####     HARDWARE
 
--     - [ ]  Use faster microcontroler (blue pills or teensy ?)
--      - [ ] Add switching jack for clock
--      - [ ] Add SD card
--      - [ ] 12v alimentation
--      - [ ] "transistorisation" des entrées/sorties
+-     - [ ]  Use blue pills for Master
+-     - [ ] Add switching jack for clock
+-     - [ ] Add SD card
+-     - [ ] 12v alimentation
+-     - [ ] "transistorisation" des entrées/sorties
+-     - [x]Screen driver
+-     - [x]LED driver
+-     - [x]Key matrix
       
       
 ####     SCHEMATIC & PCB
     
 -      - [ ] Resistor value for LED & screen
--      - [ ] Routing Main_Board
+-      - [x] Routing Main_Board
 -      - [ ] Drawing CPU_Board
 
+------------
 
-  DONE :
 
-    -Tempo
-    -Screen driver
-    -LED driver
-    -Key matrix
-    -Part choice
-    -Number of step
-    -Pages navigation
-    -Step ON-OFF
-    -Play mode
-    -Fill/Clear
-    -Copy/Past
-    -Pause/Play/Stop
-    -Gate size
-    -Step jump
-    -Reset
-    -Internal clock
+------------
 
-  ________________________________________________________________________________________________
-  ________________________________________________________________________________________________
-  ________________________________________________________________________________________________
 
 
 ##   FUNCTIONS :
   
 
-####     Buttons =
+####     Buttons  :
 -         Step on/off
 -         Shift + step button = step jump
 -         Fill
@@ -70,7 +68,7 @@
 -         Pause/Play + shift = Stop
     
 
-####     Encoders =
+####     Encoders :
 -         Tempo
 -         Tempo + push = clock divider
 -         Gate length
@@ -79,15 +77,12 @@
 -         Page navigation + push = Play mode
     
 
-####     Selector =
+####     Selecter :
 -         Part choice
 
-####     Play mode =
- -        Forward
+####     Play mode :
+-        Forward
 -         Backward
 -         Ping Pong
 -         Random
 -         Brownien
-    
-
-  --------------------------------------------------------------------------
