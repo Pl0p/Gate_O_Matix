@@ -59,7 +59,7 @@
 #### Encoders :
 	- Tempo
 	- Tempo + push = clock divider
-	-  Gate length
+	- Gate length
 	- Gate length + push = Number of step
 	- Page navigation
 	- Page navigation + push = Play mode
