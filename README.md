@@ -1,5 +1,5 @@
 
-#   Gate sequencer by Plop
+#   Gate sequencer
   *Update 17 FEB 2021*
 
 ##   64 step sequencer, 8 parts, multiple play mode, eurorack format.
