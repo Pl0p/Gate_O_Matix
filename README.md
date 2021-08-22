@@ -6,6 +6,14 @@
 
 
 ###   TODO :
+      
+- ####     SCHEMATIC & PCB
+	 - [ ] Resistor value for LED & screen
+	 - [x] Routing Main_Board
+	 - [ ] Drawing CPU_Board
+	 - [ ] Drawing Output_Board
+
+
 - #### SOFTWARE
 	 - [ ] Clock multiplier/divider per part
 	 - [ ] Detect clock internal/external (switching jack)
@@ -35,12 +43,7 @@
 	 - [x] Screen driver
 	 - [x] LED driver
 	 - [x] Key matrix
-      
-- ####     SCHEMATIC & PCB
-	 - [ ] Resistor value for LED & screen
-	 - [x] Routing Main_Board
-	 - [ ] Drawing CPU_Board
-	 - [ ] Drawing Output_Board
+
 
 
 
