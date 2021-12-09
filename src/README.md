@@ -1,0 +1,4 @@
+Library needed : 
+
+	-Sevseg
+	-Keypad

@@ -1,6 +1,6 @@
 
 #   Gate sequencer
-  *Update 17 FEB 2021*
+  *Update 09 DEC 2021*
 
 ##   64 step sequencer, 8 parts, multiple play mode, eurorack format.
 
@@ -9,11 +9,14 @@
       
 - ####     SCHEMATIC & PCB
 	 - [ ] Resistor value for LED & screen
-	 - [ ] Drawing CPU_Board
-	 - [ ] Drawing Output_Board
+	 - [ ] Re-drawing Main_board
+	 - [ ] Drawing CPU_board
+	 - [ ] Drawing Output_board
+
 
 
 - #### SOFTWARE
+	 - [ ] Refont in VScode
 	 - [ ] Clock multiplier/divider per part
 	 - [ ] Detect clock internal/external (switching jack)
 	 - [ ] Reset -> interupt
@@ -22,7 +25,6 @@
 
   
  - #### HARDWARE
-	 - [ ] Use blue pills for Master
 	 - [ ] Add SD card
 	 - [ ] 12v alimentation
 	 - [ ] Buffered output
